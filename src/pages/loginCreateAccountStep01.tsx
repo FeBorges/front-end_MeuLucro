@@ -9,7 +9,7 @@ import stylesButton from '../styles/colors/button.module.css';
 import colors from '../styles/colors/colors.module.css';
 
 
-function Login() {
+function CreateAccountStep01() {
   return (
     <div id="page-login">
       <div className="left">
@@ -31,8 +31,8 @@ function Login() {
       </div>
       <div className="right">
         <div className="content-wrapper">
-          <h1 className={colors.purple}>Faça seu login</h1>
-          <p className={colors.grey}>Gestão Inteligente de Custos</p>
+          <h1 className={colors.purple}>Criar nova conta</h1>
+          <p className={colors.grey}>Antes de criar a sua nova conta, vamos entender qual o segmento de mercado ela se enquadra</p>
           <form className="login-form">
             <div className="input-block">
               <label htmlFor="name">Nome</label>
@@ -59,12 +59,9 @@ function Login() {
             <span className="formForget">Esqueceu sua senha? <Link to="/teste" className="btCreatePassword">Gerar nova senha</Link></span>
             </div>
           </form>
-            
-              <Link to="/create/step01">
-              <button className={stylesButton.bigblue} type="submit">Criar nova conta</button>
-              </Link>
-            
-            
+            <button className={stylesButton.bigblue}  type="submit">
+            Criar nova conta
+            </button>
 
         </div>
 
@@ -73,4 +70,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default CreateAccountStep01;
