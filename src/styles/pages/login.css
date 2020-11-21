@@ -1,0 +1,116 @@
+#page-login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-login .left{
+  width: 50vw;
+  height: 100vh;
+  background: #6F4DC3;
+  background-image: url('../../images/bgLogoLogin.svg');
+  background-size: 100% 130%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-login .right{
+  width: 50vw;
+  height: 100vh;
+  padding: 80px 0 80px 0;
+  background: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-login .content-wrapper {
+  width: 100%;
+  max-width: 550px;
+  height: 100%;
+  max-height: 680px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+#page-login .content-wrapper main h1 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 28px;
+  padding-bottom: 30px;
+}
+
+#page-login .content-wrapper main p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-wrapper .logoImg {
+  width: 45%;
+}
+
+.content-wrapper .footerLogin {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.footer .footerLinks {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.footerLinks .footerBtLinks{
+  margin-right: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+ .footerLinks .footerBtLinks:hover{
+  color: #FFFFFF;
+  opacity: 0.55;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.sectionSubmit{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  /* justify-content: space-around; */
+}
+
+.sectionSubmit .formForget{
+  margin-right: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #6F4DC3;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+
+.btCreatePassword{
+  color: #6F4DC3;
+  transition: all 0.2s;
+}
+
+.btCreatePassword:hover{
+  color: #331e67;
+}

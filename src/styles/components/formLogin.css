@@ -1,0 +1,42 @@
+form.login-form {
+  width: 100%;  
+}
+
+form.login-form .input-block + .input-block {
+  margin-top: 24px;  
+}
+
+form.login-form .input-block label {
+  display: flex;
+  color: #6F4DC0;
+  margin-bottom: 8px;
+  line-height: 24px;
+}
+
+form.login-form .input-block label span {
+  font-size: 14px;
+  color: #8FA7B3;
+  margin-left: 24px;
+  line-height: 24px;
+}
+
+form.login-form .input-block input,
+form.login-form .input-block textarea {
+  width: 100%;
+  background: #FAFAFA;
+  border: 1px solid #D3E2E5;
+  border-radius: 10px;
+  outline: none;
+  color: #000;
+}
+
+form.login-form .input-block input {
+  height: 55px;
+  padding: 0 12px;
+}
+
+form.login-form .input-block input::placeholder{
+  color:#8FA7B3;
+  font-weight: 300;
+  font-size: 14px;
+}

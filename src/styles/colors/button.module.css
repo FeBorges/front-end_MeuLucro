@@ -1,0 +1,17 @@
+.bigblue{
+  background: #4791FD;
+  padding: 20px 40px 20px 40px;
+  margin-top: 20px;
+  text-align: left;
+  border-radius: 50px;
+  font-size: 14px;
+  height: 52px;
+  transition: all 0.4s;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
+
+.bigblue:hover{
+  background: #3b74cb;
+}
